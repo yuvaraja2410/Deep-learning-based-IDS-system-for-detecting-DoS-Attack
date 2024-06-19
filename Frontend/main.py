@@ -11,9 +11,9 @@ app = Flask(__name__)
 app.secret_key = "secret key"
 
 # Define your email credentials
-sender_email = "yuvarajait2020@mvit.edu.in"  # Replace with your email
-receiver_email = "yuvarajait2020@mvit.edu.in"  # Recipient's email
-password = 202004090  # Replace with your email password
+sender_email = "Example@email.xyz"  # Replace with your email
+receiver_email = "Example@email.xyz"  # Recipient's email
+password = "examplePassword"  # Replace with your email password
 
 # Function to send email notification
 def send_email_notification():
